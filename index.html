@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- 
+@author gazbond (gaz@gazbond.co.uk)
+@copyright Copyright (c) 2014, gazbond.co.uk
+@license http://opensource.org/licenses/MIT
+-->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>PagerScraper</title>
+		<meta name="description" content="">
+		<meta name="author" content="gazbond">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<style type="text/css">
+			form label {
+				display: inline-block;
+				width: 150px;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<header>
+				<h1>BookmarkletScraper</h1>
+			</header>
+			<div>
+				<form action="link.php" method="post">
+					<div>
+						<label for="scraperJsUrl">Scraper JS URL</label>
+						<input name="scraperJsUrl" type="text" value="http://sandbox/bookmarklet-scraper/example-scraper.js" />
+					</div>
+					<div>
+						<label for="jQueryUrl">jQuery JS URL</label>
+						<input name="jQueryUrl" type="text" value="http://code.jquery.com/jquery-1.7.1.min.js" />
+					</div>
+					<div>
+						<label for="fancyboxJsUrl">Fancybox JS URL</label>
+						<input name="fancyboxJsUrl" type="text" value="http://cdn-dev.aldu.net/jquery.fancybox/2.0.4/jquery.fancybox.pack.js" />
+					</div>
+					<div>
+						<label for="fancyboxCssUrl">Fancybox CSS URL</label>
+						<input name="fancyboxCssUrl" type="text" value="http://cdn-dev.aldu.net/jquery.fancybox/2.0.4/jquery.fancybox.css" />
+					</div>
+					<br />
+					<div>
+						<input type="submit" value="Submit" />
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
