@@ -18,9 +18,6 @@ if(isset($_POST['fancyboxJsUrl'])) $fancyboxJsUrl=$_POST['fancyboxJsUrl'];
 /* @var $fancyboxCssUrl string */
 $fancyboxCssUrl="";
 if(isset($_POST['fancyboxCssUrl'])) $fancyboxCssUrl=$_POST['fancyboxCssUrl'];
-/* @var $popupUrl string */
-$popupUrl="";
-if(isset($_POST['popupUrl'])) $popupUrl=$_POST['popupUrl'];
 
 // Capture output start
 ob_start();
